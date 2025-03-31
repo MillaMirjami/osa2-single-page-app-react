@@ -26,7 +26,7 @@ const App = () => {
     event.preventDefault()
     const noteObject = {
       content: newNote,
-      important: Math.random() > 0.5,
+      // important: Math.random() > 0.5,
     }
     noteService
     .create(noteObject)
